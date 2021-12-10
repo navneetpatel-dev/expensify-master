@@ -1,0 +1,18 @@
+.button {
+    background-color: $pink;
+    color: white;
+    padding: $m-size;
+    font-weight: 300;
+    font-size: 1.8rem;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 1;
+}
+
+.logout-btn {
+    background: transparent;
+}
+
+.remove-btn {
+    background-color: $dark-pink;
+}

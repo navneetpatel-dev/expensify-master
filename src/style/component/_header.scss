@@ -1,0 +1,20 @@
+.header {
+    background-color: $dark-pink;
+    padding: $s-size;
+}
+
+.header .content {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: $s-size 0;
+}
+
+.header .title {
+    text-decoration: none;
+}
+
+.header .title h1 {
+    color: white;
+    margin: 0;
+}

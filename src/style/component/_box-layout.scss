@@ -1,0 +1,22 @@
+.box-layout {
+    background: url(https://media.istockphoto.com/vectors/abstract-black-tech-geometric-background-vector-id820616890?k=6&m=820616890&s=170667a&w=0&h=d01eoVhhHzi7GIgfcqgmw47KYh8gLcBqF_Fi1gfGdmc=);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-layout .box {
+    background: fade-out(white,  .15);
+    border-radius: 3px;
+    text-align: center;
+    width: 25rem;
+    padding: $l-size $m-size;
+}
+
+.box-layout .box .title {
+    margin: 0 0 $m-size 0;
+    line-height: 1;
+}
